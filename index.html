@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khushali N. Hadvani | Web Developer Portfolio</title>
+  <meta name="description" content="Portfolio of Khushali N. Hadvani - Web Developer, Full-Stack & Database Solutions Specialist with expertise in PHP, ASP.NET MVC, MySQL, HTML, CSS, JavaScript, and Python.">
+  
+  <!-- Google Fonts & FontAwesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Ambient Dark Background Blobs -->
+  <div class="bg-ambient">
+    <div class="ambient-blob blob-1"></div>
+    <div class="ambient-blob blob-2"></div>
+    <div class="ambient-blob blob-3"></div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="logo">
+        <span class="logo-dot"></span>
+        Khushali<span class="gradient-text">.dev</span>
+      </a>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#demos" class="nav-link">Live Demos</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#contact" class="btn btn-primary btn-sm">Hire Me</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="pulse"></span>
+            Pursuing MCA @ D. Y. Patil Vidhyapeeth, Pune
+          </div>
+          
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Khushali N. Hadvani</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Motivated IT professional &amp; Web Developer with expertise in building responsive web applications, secure digital platforms, and robust database architectures.
+          </p>
+
+          <div class="hero-meta">
+            <div class="meta-item">
+              <i class="fa-solid fa-location-dot gradient-text"></i>
+              <span>Jamjodhpur, Gujarat, India</span>
+            </div>
+            <div class="meta-item">
+              <i class="fa-solid fa-graduation-cap gradient-text"></i>
+              <span>BCA &amp; MCA Scholar</span>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa-solid fa-laptop-code"></i> Explore Projects
+            </a>
+            <a href="#demos" class="btn btn-secondary">
+              <i class="fa-solid fa-circle-play"></i> Try Live Demos
+            </a>
+          </div>
+
+          <div class="social-links">
+            <a href="https://github.com/khushali224" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/khushali-hadvani" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:khushalihadvani43@gmail.com" class="social-icon" aria-label="Email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="tel:09898844958" class="social-icon" aria-label="Phone">
+              <i class="fa-solid fa-phone"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-card">
+            <div class="code-header">
+              <span class="dot dot-red"></span>
+              <span class="dot dot-yellow"></span>
+              <span class="dot dot-green"></span>
+              <span class="code-title">developer_profile.php</span>
+            </div>
+            <div class="code-body">
+              <p><span class="code-keyword">&lt;?php</span></p>
+              <p><span class="code-keyword">class</span> <span class="code-var">WebDeveloper</span> {</p>
+              <p>&nbsp;&nbsp;<span class="code-keyword">public</span> <span class="code-var">$name</span> = <span class="code-string">'Khushali N. Hadvani'</span>;</p>
+              <p>&nbsp;&nbsp;<span class="code-keyword">public</span> <span class="code-var">$role</span> = <span class="code-string">'Full Stack Developer'</span>;</p>
+              <p>&nbsp;&nbsp;<span class="code-keyword">public</span> <span class="code-var">$stack</span> = [<span class="code-string">'PHP'</span>, <span class="code-string">'MySQL'</span>, <span class="code-string">'ASP.NET'</span>, <span class="code-string">'JS'</span>];</p>
+              <p>&nbsp;&nbsp;<span class="code-keyword">public</span> <span class="code-var">$status</span> = <span class="code-string">'Ready to build secure apps'</span>;</p>
+              <p>}</p>
+              <p><span class="code-comment">// Building responsive &amp; secure solutions</span></p>
+              <p><span class="code-keyword">?&gt;</span></p>
+            </div>
+
+            <div class="floating-badge badge-1">
+              <div class="badge-icon php"><i class="fa-brands fa-php"></i></div>
+              <div class="badge-text">
+                <strong>PHP &amp; MySQL</strong>
+                <span>Backend &amp; Database</span>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-2">
+              <div class="badge-icon net"><i class="fa-solid fa-shield-halved"></i></div>
+              <div class="badge-text">
+                <strong>Saforix Security</strong>
+                <span>URL &amp; Threat Scan</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Driven by Innovation &amp; Quality Code</h2>
+          <p class="section-subtitle">Combining theoretical computer applications knowledge with practical full-stack project building.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="glass-panel about-card">
+            <h3><i class="fa-solid fa-user-astronaut gradient-text"></i> Professional Summary</h3>
+            <p>
+              Motivated fresher in IT with a strong foundation in web development, database fundamentals, and application design. Learning PHP, MySQL, HTML, CSS, JavaScript, ASP.NET MVC, and Python with a passion for building responsive, accessible, and secure digital solutions.
+            </p>
+            <p>
+              Currently pursuing MCA at D. Y. Patil Vidhyapeeth, Pune, after completing BCA at Saurashtra University, Rajkot. Gained practical experience through course projects and internship training at CodeAlpha and Codec Technologies India.
+            </p>
+          </div>
+
+          <div class="glass-panel about-card">
+            <h3><i class="fa-solid fa-star gradient-text"></i> Key Highlights</h3>
+            <ul class="highlight-list">
+              <li class="highlight-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span><strong>Full-Stack Marketplace Architecture:</strong> Designed B2B/B2C platforms like CocoFiber Connect with phpMyAdmin database management.</span>
+              </li>
+              <li class="highlight-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span><strong>Security System Design:</strong> Built Saforix security system featuring URL scanning and device behavior analysis using ASP.NET MVC &amp; SSMS.</span>
+              </li>
+              <li class="highlight-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span><strong>Child-Friendly UI/UX:</strong> Developed Kidzy educational web portal with interactive alphabet/number activity modules.</span>
+              </li>
+              <li class="highlight-item">
+                <i class="fa-solid fa-circle-check"></i>
+                <span><strong>Fast Problem Solving &amp; Typing Speed:</strong> Efficient code execution, version control with Git, and clean documentation.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Quick Stats -->
+        <div class="stats-grid">
+          <div class="glass-panel stat-card">
+            <div class="stat-number gradient-text">04+</div>
+            <div class="stat-label">Major Web Projects</div>
+          </div>
+          <div class="glass-panel stat-card">
+            <div class="stat-number gradient-text">02</div>
+            <div class="stat-label">Tech Internships</div>
+          </div>
+          <div class="glass-panel stat-card">
+            <div class="stat-number gradient-text">100%</div>
+            <div class="stat-label">Responsive Design</div>
+          </div>
+          <div class="glass-panel stat-card">
+            <div class="stat-number gradient-text">MCA</div>
+            <div class="stat-label">Higher Education</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Technical Expertise</span>
+          <h2 class="section-title">Skills &amp; Technologies</h2>
+          <p class="section-subtitle">Foundational web development and database skills for a fresher preparing for entry-level roles.</p>
+        </div>
+
+        <div class="skills-tabs">
+          <button class="skill-tab-btn active" data-tab="all">All Skills</button>
+          <button class="skill-tab-btn" data-tab="web">Web &amp; Backend</button>
+          <button class="skill-tab-btn" data-tab="db">Databases</button>
+          <button class="skill-tab-btn" data-tab="tools">Tools</button>
+          <button class="skill-tab-btn" data-tab="other">Soft Skills</button>
+        </div>
+
+        <div class="skills-grid" id="skillsContainer">
+          <!-- Web Development -->
+          <div class="glass-panel skill-card" data-category="web">
+            <div class="skill-header">
+              <div class="skill-icon"><i class="fa-brands fa-html5"></i></div>
+              <h3 class="skill-title">HTML &amp; CSS</h3>
+            </div>
+          </div>
+
+          <div class="glass-panel skill-card" data-category="web">
+            <div class="skill-header">
+              <div class="skill-icon"><i class="fa-brands fa-js"></i></div>
+              <h3 class="skill-title">JavaScript (ES6+)</h3>
+            </div>
+          </div>
+
+          <div class="glass-panel skill-card" data-category="web">
+            <div class="skill-header">
+              <div class="skill-icon"><i class="fa-brands fa-php"></i></div>
+              <h3 class="skill-title">PHP (Backend)</h3>
+            </div>
+          </div>
+
+          <div class="glass-panel skill-card" data-category="web">
+            <div class="skill-header">
+              <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+              <h3 class="skill-title">ASP.NET MVC (C#)</h3>
+            </div>
+          </div>
+
+          <!-- Databases -->
+          <div class="glass-panel skill-card" data-category="db">
+            <div class="skill-header">
+              <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+              <h3 class="skill-title">MySQL &amp; SQL Server</h3>
+            </div>
+          </div>
+
+          <!-- Tools -->
+          <div class="glass-panel skill-card" data-category="tools">
+            <div class="skill-header">
+              <div class="skill-icon"><i class="fa-solid fa-server"></i></div>
+              <h3 class="skill-title">XAMPP &amp; phpMyAdmin</h3>
+            </div>
+          </div>
+
+          <div class="glass-panel skill-card" data-category="tools">
+            <div class="skill-header">
+              <div class="skill-icon"><i class="fa-solid fa-laptop-file"></i></div>
+              <h3 class="skill-title">Visual Studio &amp; SSMS</h3>
+            </div>
+          </div>
+
+          <div class="glass-panel skill-card" data-category="tools">
+            <div class="skill-header">
+              <div class="skill-icon"><i class="fa-brands fa-git-alt"></i></div>
+              <h3 class="skill-title">Git &amp; Version Control</h3>
+            </div>
+          </div>
+
+          <!-- Other -->
+          <div class="glass-panel skill-card" data-category="other">
+            <div class="skill-header">
+              <div class="skill-icon"><i class="fa-solid fa-keyboard"></i></div>
+              <h3 class="skill-title">Fast Typing &amp; MS Office</h3>
+            </div>
+          </div>
+
+          <div class="glass-panel skill-card" data-category="other">
+            <div class="skill-header">
+              <div class="skill-icon"><i class="fa-solid fa-language"></i></div>
+              <h3 class="skill-title">Languages &amp; Communication</h3>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Featured Work</span>
+          <h2 class="section-title">Projects Portfolio</h2>
+          <p class="section-subtitle">Full-stack web applications, security systems, educational portals, and utility tools.</p>
+        </div>
+
+        <div class="projects-filter">
+          <button class="filter-btn active" data-filter="all">All Projects (9)</button>
+          <button class="filter-btn" data-filter="major">Major Academic Projects</button>
+          <button class="filter-btn" data-filter="internship">Internship Projects</button>
+          <button class="filter-btn" data-filter="security">Security &amp; Tech</button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: CocoFiber Connect -->
+          <div class="glass-panel project-card" data-category="major">
+            <span class="project-category-badge">Final Year Project</span>
+            <h3 class="project-title">CocoFiber Connect</h3>
+            <p class="project-desc">
+              Web-based marketplace platform connecting coconut fiber (coir) suppliers with buyers. Supports B2B and B2C trade through product listing, inquiries, secure user management, order tracking, and admin control.
+            </p>
+            <div class="project-tech">
+              <span class="tech-chip">HTML5</span>
+              <span class="tech-chip">CSS3</span>
+              <span class="tech-chip">JavaScript</span>
+              <span class="tech-chip">PHP</span>
+              <span class="tech-chip">MySQL</span>
+              <span class="tech-chip">XAMPP</span>
+            </div>
+            <div class="project-actions">
+              <button class="project-btn modal-trigger" data-modal="cocofiber">
+                <i class="fa-solid fa-circle-info"></i> View Details
+              </button>
+              <a href="#contact" class="project-btn">Inquire Platform <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <!-- Project 2: Saforix Security -->
+          <div class="glass-panel project-card" data-category="security major internship">
+            <span class="project-category-badge">Internship Project</span>
+            <h3 class="project-title">Saforix - Security</h3>
+            <p class="project-desc">
+              Security monitoring system performing URL scanning, device scanning, and behavior analysis to detect potential digital threats and ensure safe browsing activity.
+            </p>
+            <div class="project-tech">
+              <span class="tech-chip">ASP.NET MVC</span>
+              <span class="tech-chip">C#</span>
+              <span class="tech-chip">SQL Server (SSMS)</span>
+              <span class="tech-chip">HTML/CSS</span>
+              <span class="tech-chip">Visual Studio</span>
+            </div>
+            <div class="project-actions">
+              <button class="project-btn modal-trigger" data-modal="saforix">
+                <i class="fa-solid fa-circle-info"></i> View Details
+              </button>
+              <a href="#contact" class="project-btn">Security Specs <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <!-- Project 3: Kidzy -->
+          <div class="glass-panel project-card" data-category="major">
+            <span class="project-category-badge">Final Year Project</span>
+            <h3 class="project-title">Kidzy Educational Portal</h3>
+            <p class="project-desc">
+              Child-friendly educational website designed for nursery, LKG, and HKG students. Includes interactive puzzle games, number/alphabet activities, and admin portal.
+            </p>
+            <div class="project-tech">
+              <span class="tech-chip">HTML5</span>
+              <span class="tech-chip">CSS3</span>
+              <span class="tech-chip">JavaScript</span>
+              <span class="tech-chip">PHP</span>
+              <span class="tech-chip">MySQL</span>
+            </div>
+            <div class="project-actions">
+              <button class="project-btn modal-trigger" data-modal="kidzy">
+                <i class="fa-solid fa-circle-info"></i> View Details
+              </button>
+              <a href="#demos" class="project-btn">Play Mini-Game <i class="fa-solid fa-gamepad"></i></a>
+            </div>
+          </div>
+
+          <!-- Project 4: Online Movie Booking -->
+          <div class="glass-panel project-card" data-category="major">
+            <span class="project-category-badge">Web Application</span>
+            <h3 class="project-title">Online Movie Booking System</h3>
+            <p class="project-desc">
+              Web system allowing users to browse movies, view showtimes, select seats, book tickets online, view booking history, and manage payments with admin panel control.
+            </p>
+            <div class="project-tech">
+              <span class="tech-chip">HTML5</span>
+              <span class="tech-chip">CSS3</span>
+              <span class="tech-chip">JavaScript</span>
+              <span class="tech-chip">PHP</span>
+              <span class="tech-chip">MySQL</span>
+            </div>
+            <div class="project-actions">
+              <button class="project-btn modal-trigger" data-modal="movie">
+                <i class="fa-solid fa-circle-info"></i> View Details
+              </button>
+              <a href="#contact" class="project-btn">System Features <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <!-- Project 5: Calculator -->
+          <div class="glass-panel project-card" data-category="internship">
+            <span class="project-category-badge">CodeAlpha Internship</span>
+            <h3 class="project-title">Web Calculator App</h3>
+            <p class="project-desc">
+              Functional web calculator featuring a crisp user interface and JavaScript-based arithmetic operation processing.
+            </p>
+            <div class="project-tech">
+              <span class="tech-chip">HTML5</span>
+              <span class="tech-chip">CSS3</span>
+              <span class="tech-chip">JavaScript</span>
+            </div>
+            <div class="project-actions">
+              <button class="project-btn modal-trigger" data-modal="calc">
+                <i class="fa-solid fa-circle-info"></i> Details
+              </button>
+              <a href="#demos" class="project-btn">Test Live Calc <i class="fa-solid fa-calculator"></i></a>
+            </div>
+          </div>
+
+          <!-- Project 6: Image Gallery -->
+          <div class="glass-panel project-card" data-category="internship">
+            <span class="project-category-badge">CodeAlpha Internship</span>
+            <h3 class="project-title">Interactive Image Gallery</h3>
+            <p class="project-desc">
+              Responsive image gallery with interactive image viewing, filtering, and modern grid layout.
+            </p>
+            <div class="project-tech">
+              <span class="tech-chip">HTML5</span>
+              <span class="tech-chip">CSS3</span>
+              <span class="tech-chip">JavaScript</span>
+            </div>
+            <div class="project-actions">
+              <button class="project-btn modal-trigger" data-modal="gallery">
+                <i class="fa-solid fa-circle-info"></i> Details
+              </button>
+              <a href="#contact" class="project-btn">Gallery Layout <i class="fa-solid fa-images"></i></a>
+            </div>
+          </div>
+
+          <!-- Project 7: BMI Calculator -->
+          <div class="glass-panel project-card" data-category="internship security">
+            <span class="project-category-badge">Codec Tech AI Internship</span>
+            <h3 class="project-title">BMI Health Calculator</h3>
+            <p class="project-desc">
+              Python application to calculate Body Mass Index (BMI) based on user-provided height and weight with health risk classification.
+            </p>
+            <div class="project-tech">
+              <span class="tech-chip">Python</span>
+              <span class="tech-chip">Algorithm</span>
+              <span class="tech-chip">Logic</span>
+            </div>
+            <div class="project-actions">
+              <button class="project-btn modal-trigger" data-modal="bmi">
+                <i class="fa-solid fa-circle-info"></i> Details
+              </button>
+              <a href="#demos" class="project-btn">Test Widget <i class="fa-solid fa-weight-scale"></i></a>
+            </div>
+          </div>
+
+          <!-- Project 8: Random Password Generator -->
+          <div class="glass-panel project-card" data-category="internship security">
+            <span class="project-category-badge">Codec Tech AI Internship</span>
+            <h3 class="project-title">Random Password Generator</h3>
+            <p class="project-desc">
+              Python-based tool designed to generate secure, custom-length random passwords using cryptographic randomization logic.
+            </p>
+            <div class="project-tech">
+              <span class="tech-chip">Python</span>
+              <span class="tech-chip">Security</span>
+              <span class="tech-chip">Cryptography</span>
+            </div>
+            <div class="project-actions">
+              <button class="project-btn modal-trigger" data-modal="password">
+                <i class="fa-solid fa-circle-info"></i> Details
+              </button>
+              <a href="#demos" class="project-btn">Generate Pass <i class="fa-solid fa-key"></i></a>
+            </div>
+          </div>
+
+          <!-- Project 9: Basic Weather App -->
+          <div class="glass-panel project-card" data-category="internship">
+            <span class="project-category-badge">Codec Tech AI Internship</span>
+            <h3 class="project-title">Basic Weather Application</h3>
+            <p class="project-desc">
+              Python application built to fetch real-time weather information, temperature, and atmospheric data for specified locations.
+            </p>
+            <div class="project-tech">
+              <span class="tech-chip">Python</span>
+              <span class="tech-chip">API Fetch</span>
+              <span class="tech-chip">JSON</span>
+            </div>
+            <div class="project-actions">
+              <button class="project-btn modal-trigger" data-modal="weather">
+                <i class="fa-solid fa-circle-info"></i> Details
+              </button>
+              <a href="https://github.com/khushali224/OIBSIP" target="_blank" class="project-btn">View Repo <i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Live Interactive Demos Section -->
+    <section class="section" id="demos">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Interactive Playground</span>
+          <h2 class="section-title">Try Live Mini-Apps</h2>
+          <p class="section-subtitle">Experience live working versions of projects created during internships and final year coursework.</p>
+        </div>
+
+        <div class="demos-wrapper">
+          <div class="demos-header-tabs">
+            <button class="demo-tab-btn active" data-demo="calc">
+              <i class="fa-solid fa-calculator"></i> Web Calculator
+            </button>
+            <button class="demo-tab-btn" data-demo="pw">
+              <i class="fa-solid fa-key"></i> Password Generator
+            </button>
+            <button class="demo-tab-btn" data-demo="bmi">
+              <i class="fa-solid fa-weight-scale"></i> BMI Calculator
+            </button>
+            <button class="demo-tab-btn" data-demo="kidzy">
+              <i class="fa-solid fa-gamepad"></i> Kidzy Mini Quiz
+            </button>
+          </div>
+
+          <!-- Demo 1: Calculator -->
+          <div class="demo-panel active" id="demo-calc">
+            <div class="calc-container">
+              <div class="calc-display" id="calcDisplay">0</div>
+              <div class="calc-grid">
+                <button class="calc-btn clear" onclick="calcClear()">C</button>
+                <button class="calc-btn op" onclick="calcOp('/')">&divide;</button>
+                <button class="calc-btn op" onclick="calcOp('*')">&times;</button>
+                <button class="calc-btn op" onclick="calcOp('-')">&minus;</button>
+                
+                <button class="calc-btn" onclick="calcNum('7')">7</button>
+                <button class="calc-btn" onclick="calcNum('8')">8</button>
+                <button class="calc-btn" onclick="calcNum('9')">9</button>
+                <button class="calc-btn op" onclick="calcOp('+')">+</button>
+
+                <button class="calc-btn" onclick="calcNum('4')">4</button>
+                <button class="calc-btn" onclick="calcNum('5')">5</button>
+                <button class="calc-btn" onclick="calcNum('6')">6</button>
+                <button class="calc-btn" onclick="calcNum('.')">.</button>
+
+                <button class="calc-btn" onclick="calcNum('1')">1</button>
+                <button class="calc-btn" onclick="calcNum('2')">2</button>
+                <button class="calc-btn" onclick="calcNum('3')">3</button>
+                <button class="calc-btn" onclick="calcNum('0')">0</button>
+
+                <button class="calc-btn equal" onclick="calcEqual()">=</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Demo 2: Password Generator -->
+          <div class="demo-panel" id="demo-pw">
+            <div class="pw-container">
+              <div class="pw-output-box">
+                <input type="text" class="pw-input" id="pwOutput" readonly value="Khushali#2026!Sec">
+                <button class="pw-copy-btn" onclick="copyPassword()" title="Copy to clipboard">
+                  <i class="fa-regular fa-copy"></i>
+                </button>
+              </div>
+              <div class="pw-controls">
+                <div class="pw-row">
+                  <label for="pwLength">Length: <strong id="lenVal">14</strong></label>
+                  <input type="range" id="pwLength" class="pw-slider" min="6" max="32" value="14" oninput="document.getElementById('lenVal').innerText=this.value">
+                </div>
+                <div class="pw-row">
+                  <span>Include Symbols (&amp;*#!)</span>
+                  <input type="checkbox" id="pwSymbols" checked>
+                </div>
+                <div class="pw-row">
+                  <span>Include Numbers (0-9)</span>
+                  <input type="checkbox" id="pwNumbers" checked>
+                </div>
+                <button class="btn btn-primary" onclick="generatePassword()">
+                  <i class="fa-solid fa-arrows-rotate"></i> Generate Secure Password
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Demo 3: BMI Calculator -->
+          <div class="demo-panel" id="demo-bmi">
+            <div class="bmi-container">
+              <div class="form-group">
+                <label for="bmiHeight">Height (cm)</label>
+                <input type="number" id="bmiHeight" class="form-input" placeholder="e.g. 165" value="165">
+              </div>
+              <div class="form-group">
+                <label for="bmiWeight">Weight (kg)</label>
+                <input type="number" id="bmiWeight" class="form-input" placeholder="e.g. 58" value="58">
+              </div>
+              <button class="btn btn-primary" style="width: 100%" onclick="calculateBMI()">
+                Calculate BMI Score
+              </button>
+              <div class="bmi-result-box" id="bmiResult">
+                <div class="bmi-score" id="bmiScore">21.3</div>
+                <div class="bmi-status" id="bmiStatus">Normal Weight</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Demo 4: Kidzy Mini Quiz -->
+          <div class="demo-panel" id="demo-kidzy">
+            <div class="bmi-container" style="text-align: center;">
+              <h3 style="margin-bottom: 1rem; color: var(--primary);">Kidzy Fun Learning Quiz</h3>
+              <p style="color: var(--text-muted); margin-bottom: 1.5rem;" id="quizQuestion">What letter comes after 'A'?</p>
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.5rem;" id="quizOptions">
+                <button class="btn btn-secondary" onclick="checkQuiz(this, false)">A) C</button>
+                <button class="btn btn-secondary" onclick="checkQuiz(this, true)">B) B</button>
+                <button class="btn btn-secondary" onclick="checkQuiz(this, false)">C) D</button>
+                <button class="btn btn-secondary" onclick="checkQuiz(this, false)">D) E</button>
+              </div>
+              <div id="quizFeedback" style="font-weight: 600; min-height: 24px;"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience & Education Section -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Career &amp; Education</span>
+          <h2 class="section-title">Internships &amp; Academic Journey</h2>
+          <p class="section-subtitle">Detailed timeline of practical software development experience and university studies.</p>
+        </div>
+
+        <div class="timeline-container">
+          <!-- Item 1: Artificial Intelligence Intern -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="glass-panel timeline-content">
+              <span class="timeline-date">July 2026</span>
+              <h3 class="timeline-role">Artificial Intelligence Intern</h3>
+              <div class="timeline-org"><i class="fa-solid fa-building"></i> Codec Technologies India</div>
+              <div class="timeline-body">
+                <p>Worked on practical Python-based software projects, strengthening backend algorithmic thinking and security logic.</p>
+                <div class="project-tech">
+                  <span class="tech-chip">Python</span>
+                  <span class="tech-chip">BMI App</span>
+                  <span class="tech-chip">Password Gen</span>
+                  <span class="tech-chip">Weather API</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2: MCA Pursuing -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="glass-panel timeline-content">
+              <span class="timeline-date">Pursuing</span>
+              <h3 class="timeline-role">Master of Computer Applications (MCA)</h3>
+              <div class="timeline-org"><i class="fa-solid fa-university"></i> D. Y. Patil Vidhyapeeth, Pune</div>
+              <div class="timeline-body">
+                <p>Advanced studies in Computer Applications, database architecture, software engineering principles, and enterprise app design.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3: Frontend Developer Intern -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="glass-panel timeline-content">
+              <span class="timeline-date">July 2025</span>
+              <h3 class="timeline-role">Frontend Developer Intern</h3>
+              <div class="timeline-org"><i class="fa-solid fa-laptop-code"></i> CodeAlpha</div>
+              <div class="timeline-body">
+                <p>Developed interactive, user-friendly, and fully responsive web applications using HTML, CSS, and JavaScript.</p>
+                <div class="project-tech">
+                  <span class="tech-chip">HTML5</span>
+                  <span class="tech-chip">CSS3</span>
+                  <span class="tech-chip">JavaScript</span>
+                  <span class="tech-chip">Web Calculator</span>
+                  <span class="tech-chip">Image Gallery</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 4: BCA Degree -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="glass-panel timeline-content">
+              <span class="timeline-date">Jan 2023 – Jan 2026</span>
+              <h3 class="timeline-role">Bachelor of Computer Applications (BCA)</h3>
+              <div class="timeline-org"><i class="fa-solid fa-graduation-cap"></i> Saurashtra University, Rajkot</div>
+              <div class="timeline-body">
+                <p>Graduated with strong fundamentals in web development, database management systems (DBMS), C programming, PHP, and web systems design.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">Let's Connect &amp; Build Together</h2>
+          <p class="section-subtitle">Open for full-stack web developer opportunities, internships, and technical projects.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="glass-panel contact-info-card">
+            <h3 style="font-size: 1.5rem; margin-bottom: 2rem;">Contact Information</h3>
+
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="contact-text">
+                <label>Email Address</label>
+                <a href="mailto:khushalihadvani43@gmail.com">khushalihadvani43@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="contact-text">
+                <label>Phone Number</label>
+                <a href="tel:09898844958">+91 98988 44958</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="contact-text">
+                <label>Location</label>
+                <p>Jamjodhpur, Gujarat, India</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+              <div class="contact-text">
+                <label>GitHub Profile</label>
+                <a href="https://github.com/khushali224" target="_blank" rel="noopener">github.com/khushali224</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-brands fa-linkedin"></i></div>
+              <div class="contact-text">
+                <label>LinkedIn Profile</label>
+                <a href="https://www.linkedin.com/in/khushali-hadvani" target="_blank" rel="noopener">linkedin.com/in/khushali-hadvani</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="glass-panel contact-form-card">
+            <h3 style="font-size: 1.5rem; margin-bottom: 1.5rem;">Send a Message</h3>
+            <form id="contactForm" onsubmit="handleContactSubmit(event)">
+              <div class="form-group">
+                <label for="senderName">Your Name</label>
+                <input type="text" id="senderName" class="form-input" placeholder="e.g. John Doe" required>
+              </div>
+              <div class="form-group">
+                <label for="senderEmail">Your Email</label>
+                <input type="email" id="senderEmail" class="form-input" placeholder="e.g. john@example.com" required>
+              </div>
+              <div class="form-group">
+                <label for="senderSubject">Subject</label>
+                <input type="text" id="senderSubject" class="form-input" placeholder="Project Inquiry / Job Opportunity" required>
+              </div>
+              <div class="form-group">
+                <label for="senderMessage">Message</label>
+                <textarea id="senderMessage" class="form-input" placeholder="Hello Khushali, I saw your portfolio and would like to discuss..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width: 100%">
+                <i class="fa-solid fa-paper-plane"></i> Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal Container for Project Details -->
+  <div class="modal-overlay" id="projectModal">
+    <div class="glass-panel modal-container">
+      <button class="modal-close" onclick="closeModal()" aria-label="Close modal">&times;</button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">
+    <i class="fa-solid fa-circle-check" style="color: var(--accent-emerald); font-size: 1.2rem;"></i>
+    <span id="toastMessage">Action completed successfully!</span>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <div>
+        <p style="color: #ffffff; font-weight: 600; font-family: var(--font-heading);">Khushali N. Hadvani</p>
+        <p style="color: var(--text-muted); font-size: 0.88rem;">&copy; 2026 Khushali N. Hadvani. All rights reserved.</p>
+      </div>
+
+      <div class="social-links">
+        <a href="https://github.com/khushali224" target="_blank" class="social-icon"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/khushali-hadvani" target="_blank" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:khushalihadvani43@gmail.com" class="social-icon"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+
+      <button class="back-to-top" onclick="window.scrollTo({top:0, behavior:'smooth'})" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+      </button>
+    </div>
+  </footer>
+
+  <!-- Script File -->
+  <script src="script.js"></script>
+</body>
+</html>
